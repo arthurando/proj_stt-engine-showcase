@@ -76,8 +76,8 @@ const LAYERS = [
     colorLight: 'rgba(6, 182, 212, 0.15)',
     direction: 'left',
     services: [
-      { name: 'Supabase', subtitle: '170 tables', icon: Database },
-      { name: 'Cloudflare R2', icon: HardDrive },
+      { name: 'Database', subtitle: '170 tables', icon: Database },
+      { name: 'Cloud Storage', icon: HardDrive },
       { name: 'Redis / BullMQ', icon: Layers },
       { name: 'Shopify API', icon: Store },
     ],

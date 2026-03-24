@@ -16,7 +16,7 @@ const DEFAULT_TOOLS = [
   { key: 'content', label: 'Content Creation (VA/Agency)', cost: 2000 },
 ];
 
-const INFRA_COST = 105; // $75 VPS + $25 Supabase + $5 R2
+const INFRA_COST = 105; // $75 server + $25 database + $5 storage
 
 function AnimatedNumber({ value, prefix = '$', suffix = '' }) {
   const ref = useRef(null);
@@ -168,15 +168,15 @@ function CostCalculator() {
             <div className="mt-6 pt-4 border-t border-emerald-500/20">
               <div className="space-y-1 mb-3">
                 <div className="flex justify-between text-sm text-gray-400">
-                  <span>Hetzner VPS</span>
+                  <span>Private Server</span>
                   <span>$75/mo</span>
                 </div>
                 <div className="flex justify-between text-sm text-gray-400">
-                  <span>Supabase</span>
+                  <span>Database</span>
                   <span>$25/mo</span>
                 </div>
                 <div className="flex justify-between text-sm text-gray-400">
-                  <span>Cloudflare R2</span>
+                  <span>Cloud Storage</span>
                   <span>$5/mo</span>
                 </div>
               </div>
