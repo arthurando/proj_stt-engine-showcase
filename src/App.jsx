@@ -28,7 +28,7 @@ export default function App() {
         <CaseStudy />
         <InfraSection />
         {/* <PricingSection /> */}
-        <CTASection />
+        {/* <CTASection /> */}
         <Footer />
       </div>
     </LangProvider>
