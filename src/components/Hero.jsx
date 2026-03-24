@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { ArrowRight, Sparkles } from 'lucide-react';
 import { useLang } from '../i18n';
+import Plasma from './react-bits/plasma';
 
 const STATS = [
   { value: '212,000+', key: 'hero_stat_customers' },
@@ -62,11 +63,17 @@ export default function Hero() {
       id="hero"
       className="relative min-h-screen flex items-center overflow-hidden bg-gradient-animated"
     >
-      {/* Decorative background elements */}
-      <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-indigo-500/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl" />
+      {/* Plasma background */}
+      <div className="absolute inset-0 pointer-events-none opacity-60">
+        <Plasma
+          color1={[0.15, 0.05, 0.35]}
+          color2={[0.05, 0.15, 0.45]}
+          color3={[0.25, 0.1, 0.55]}
+          speed={0.25}
+          scale={4.0}
+        />
       </div>
+      <div className="absolute inset-0 bg-[#0a0e1a]/40 pointer-events-none" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 w-full">
         <motion.div
