@@ -51,30 +51,6 @@ export default function InfraSection() {
           ))}
         </div>
 
-        {/* Monthly cost breakdown */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="max-w-md mx-auto"
-        >
-          <h3 className="text-xl font-semibold text-center mb-6">{t('infra_cost_title')}</h3>
-          <div className="bg-[#1e293b]/50 border border-white/5 rounded-2xl p-6 space-y-3">
-            {costs.map(({ key, amount }) => (
-              <div key={key} className="flex justify-between items-center text-sm">
-                <span className="text-gray-400">{t(`infra_${key}`)}</span>
-                <span className="text-white font-medium">{amount}/mo</span>
-              </div>
-            ))}
-            <div className="border-t border-white/10 pt-3 mt-3 flex justify-between items-center">
-              <span className="text-white font-semibold">{t('infra_total')}</span>
-              <span className="text-2xl font-bold text-emerald-400">~$37/mo</span>
-            </div>
-            <p className="text-xs text-gray-500 text-center pt-2">
-              vs $3,000-$10,000/mo SaaS stack
-            </p>
-          </div>
-        </motion.div>
       </div>
     </section>
   )
