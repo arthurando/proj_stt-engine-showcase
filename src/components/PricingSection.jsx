@@ -90,7 +90,7 @@ function PricingCard({ tier, t, index, inView }) {
             : 'bg-white/5 hover:bg-white/10 text-white border border-white/10'
         }`}
       >
-        Get Started
+        {t('cost_get_started')}
       </motion.button>
     </motion.div>
   );

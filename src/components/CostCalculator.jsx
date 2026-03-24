@@ -94,13 +94,13 @@ function CostCalculator() {
             initial={{ opacity: 0, x: -40 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="bg-red-950/20 border border-red-500/20 rounded-2xl p-6"
+            className="bg-red-950/20 border border-red-500/20 rounded-2xl p-4 sm:p-6"
           >
             <div className="flex items-center gap-3 mb-6">
               <div className="w-10 h-10 rounded-xl bg-red-500/20 flex items-center justify-center">
                 <DollarSign className="w-5 h-5 text-red-400" />
               </div>
-              <h3 className="text-xl font-bold text-red-300">Your Current SaaS Stack</h3>
+              <h3 className="text-xl font-bold text-red-300">{t('cost_your_stack')}</h3>
             </div>
 
             <div className="space-y-3">
@@ -112,7 +112,7 @@ function CostCalculator() {
                   <span className="text-sm text-gray-300 flex-1 min-w-0 truncate">
                     {tool.label}
                   </span>
-                  <div className="relative w-28 shrink-0">
+                  <div className="relative w-20 sm:w-28 shrink-0">
                     <span className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500 text-sm">$</span>
                     <input
                       type="number"
@@ -127,7 +127,7 @@ function CostCalculator() {
             </div>
 
             <div className="mt-6 pt-4 border-t border-red-500/20 flex items-center justify-between">
-              <span className="text-lg font-semibold text-red-300">Total Monthly</span>
+              <span className="text-lg font-semibold text-red-300">{t('cost_total_monthly')}</span>
               <span className="text-2xl font-bold text-red-400">
                 <AnimatedNumber value={totalSaaS} />
                 <span className="text-sm text-red-400/60 ml-1">/mo</span>
@@ -140,7 +140,7 @@ function CostCalculator() {
             initial={{ opacity: 0, x: 40 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="bg-emerald-950/20 border border-emerald-500/20 rounded-2xl p-6"
+            className="bg-emerald-950/20 border border-emerald-500/20 rounded-2xl p-4 sm:p-6"
           >
             <div className="flex items-center gap-3 mb-6">
               <div className="w-10 h-10 rounded-xl bg-emerald-500/20 flex items-center justify-center">
@@ -181,7 +181,7 @@ function CostCalculator() {
                 </div>
               </div>
               <div className="flex items-center justify-between">
-                <span className="text-lg font-semibold text-emerald-300">Total Monthly</span>
+                <span className="text-lg font-semibold text-emerald-300">{t('cost_total_monthly')}</span>
                 <span className="text-2xl font-bold text-emerald-400">
                   $105
                   <span className="text-sm text-emerald-400/60 ml-1">/mo</span>
@@ -202,7 +202,7 @@ function CostCalculator() {
             {/* SaaS bar */}
             <div>
               <div className="flex justify-between text-sm mb-2">
-                <span className="text-red-300">Current SaaS Stack</span>
+                <span className="text-red-300">{t('cost_current_label')}</span>
                 <span className="text-red-400 font-semibold">
                   <AnimatedNumber value={totalSaaS} />/mo
                 </span>
@@ -220,7 +220,7 @@ function CostCalculator() {
             {/* STT bar */}
             <div>
               <div className="flex justify-between text-sm mb-2">
-                <span className="text-emerald-300">STT Commerce OS</span>
+                <span className="text-emerald-300">{t('cost_our')}</span>
                 <span className="text-emerald-400 font-semibold">$105/mo</span>
               </div>
               <div className="h-4 bg-[#0a0a1a] rounded-full overflow-hidden">
@@ -246,11 +246,11 @@ function CostCalculator() {
           transition={{ duration: 0.6, delay: 0.7, type: 'spring', stiffness: 150 }}
           className="bg-gradient-to-r from-emerald-900/40 to-emerald-800/20 border border-emerald-500/30 rounded-2xl p-8 text-center"
         >
-          <p className="text-emerald-300 text-lg mb-2">You Save</p>
+          <p className="text-emerald-300 text-lg mb-2">{t('cost_savings_label')}</p>
           <div className="text-5xl md:text-6xl font-bold text-emerald-400 mb-2">
             <AnimatedNumber value={Math.max(0, annualSavings)} />
           </div>
-          <p className="text-emerald-300/70 text-lg">per year</p>
+          <p className="text-emerald-300/70 text-lg">{t('cost_savings_per_year')}</p>
           <motion.div
             initial={{ width: 0 }}
             animate={inView ? { width: '100%' } : {}}
@@ -258,7 +258,7 @@ function CostCalculator() {
             className="mt-4 mx-auto max-w-xs h-1 bg-gradient-to-r from-transparent via-emerald-400 to-transparent rounded-full"
           />
           <p className="text-gray-400 text-sm mt-4">
-            That's a <span className="text-emerald-400 font-bold">{savingsPercent}%</span> reduction in tooling costs
+            <span className="text-emerald-400 font-bold">{savingsPercent}%</span> {t('cost_savings_reduction')}
           </p>
         </motion.div>
       </div>

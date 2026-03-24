@@ -41,7 +41,7 @@ const LAYERS = [
     direction: 'right',
     services: [
       { name: 'AI Recommendations', icon: Sparkles },
-      { name: 'Claudia', subtitle: 'AI Orchestrator', icon: Brain, glow: true },
+      { name: 'AI Orchestrator', subtitle: 'Intelligence Hub', icon: Brain, glow: true },
       { name: 'AI Content Generator', icon: MessageSquare },
       { name: 'AI Shopping Agent', icon: Bot },
     ],

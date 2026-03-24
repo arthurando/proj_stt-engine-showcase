@@ -15,8 +15,8 @@ const t = {
     // Hero
     hero_badge: 'AI-Native Commerce Operating System',
     hero_title_1: 'Stop Paying for',
-    hero_title_2: '10 SaaS Tools.',
-    hero_title_3: 'Run One Engine.',
+    hero_title_2: '10 SaaS Tools',
+    hero_title_3: 'Run One Engine',
     hero_subtitle: 'A fully integrated e-commerce operating system that replaces your entire SaaS stack — CRM, email marketing, social autopilot, chat, inventory sync, content generation — powered by AI, self-hosted, battle-tested on 212K+ customers.',
     hero_cta: 'See the Architecture',
     hero_cta2: 'Calculate Your Savings',
@@ -106,8 +106,8 @@ const t = {
     feat_product_create_stats: 'Mobile-first • Multi-brand • Auto-variant combos',
 
     // Orchestration
-    orchestration_title: 'The AI Brain: Claudia',
-    orchestration_subtitle: 'An AI Chief of Staff orchestrates the entire system. Not a chatbot — an autonomous operations layer.',
+    orchestration_title: 'The AI Brain: AI Orchestrator',
+    orchestration_subtitle: 'An AI operations layer orchestrates the entire system. Not a chatbot — an autonomous intelligence.',
     orchestration_features: [
       'Spawns parallel agents for complex multi-step tasks',
       'Routes work based on confidence levels and task type',
@@ -129,6 +129,13 @@ const t = {
     cost_you_save: 'You Save',
     cost_per_year: '/year',
     cost_per_month: '/mo',
+    cost_your_stack: 'Your Current SaaS Stack',
+    cost_current_label: 'Current SaaS Stack',
+    cost_savings_label: 'You Save',
+    cost_savings_per_year: 'per year',
+    cost_savings_reduction: 'reduction in tooling costs',
+    cost_total_monthly: 'Total Monthly',
+    cost_get_started: 'Get Started',
 
     // Case study
     case_title: 'Case Study: STT Mall HK',
@@ -141,6 +148,13 @@ const t = {
     case_stat_tables: 'Database Tables',
     case_quote: '"We replaced 10+ SaaS subscriptions with one self-hosted system. Our margins improved, our data is unified, and AI handles 80% of our marketing content creation."',
     case_author: 'Arthur — Founder, STT Mall HK',
+    case_timeline_title: 'Tech Stack Build Timeline',
+    case_phase: 'Phase',
+    case_phase_1: 'Shopify Sync + CRM Foundation',
+    case_phase_2: 'Social Autopilot + Content Engine',
+    case_phase_3: 'Loyalty + Recommendations + EDM',
+    case_phase_4: 'Omnichannel Chat + Analytics',
+    case_phase_5: 'Video Editor + Affiliate + AI Agent',
 
     // Infrastructure
     infra_title: 'Infrastructure',
@@ -164,15 +178,15 @@ const t = {
     pricing_subtitle: 'Choose the model that fits your business.',
     pricing_setup: 'Setup & Deploy',
     pricing_setup_desc: 'We deploy the full STT Commerce OS for your store. One-time setup + monthly maintenance.',
-    pricing_setup_price: 'From $15,000 setup',
+    pricing_setup_price: 'TBD',
     pricing_setup_features: ['Full stack deployment', 'Custom configuration', 'Data migration', '30-day support', 'Training & documentation'],
     pricing_managed: 'Managed Operations',
     pricing_managed_desc: 'We run your entire e-commerce operation. You focus on products — we handle everything else.',
-    pricing_managed_price: 'From $3,000/mo + rev share',
+    pricing_managed_price: 'TBD',
     pricing_managed_features: ['Everything in Setup', 'AI content generation', 'Social media management', 'Email marketing', 'Customer analytics', 'Ongoing optimization'],
     pricing_partner: 'Growth Partner',
     pricing_partner_desc: 'Revenue share model. We invest our tech, you invest your products. We grow together.',
-    pricing_partner_price: 'Base + 2-5% GMV',
+    pricing_partner_price: 'TBD',
     pricing_partner_features: ['Everything in Managed', 'Aligned incentives', 'Strategic consulting', 'Priority feature development', 'Dedicated AI ops team', 'Quarterly business reviews'],
     pricing_popular: 'Most Popular',
 
@@ -183,9 +197,9 @@ const t = {
     cta_button2: 'View Technical Docs',
 
     // Footer
-    footer_built: 'Built with',
-    footer_by: 'by STT Mall HK',
-    footer_powered: 'Powered by Claude AI + Shopify Hydrogen + Supabase',
+    footer_built: '',
+    footer_by: '',
+    footer_powered: '',
   },
 
   zh: {
@@ -202,8 +216,8 @@ const t = {
     // Hero
     hero_badge: 'AI 驅動電商營運系統',
     hero_title_1: '不再需要',
-    hero_title_2: '10個SaaS工具。',
-    hero_title_3: '一套引擎搞定。',
+    hero_title_2: '10個SaaS工具',
+    hero_title_3: '一套引擎搞定',
     hero_subtitle: '一套完全整合的電商營運系統，取代你整個SaaS工具組合 — CRM、電郵行銷、社交自動化、客服聊天、庫存同步、內容生成 — 由AI驅動，自主託管，已在212K+客戶上實戰驗證。',
     hero_cta: '查看系統架構',
     hero_cta2: '計算你的節省',
@@ -293,8 +307,8 @@ const t = {
     feat_product_create_stats: '手機優先 • 多品牌 • 自動變體組合',
 
     // Orchestration
-    orchestration_title: 'AI大腦：Claudia',
-    orchestration_subtitle: 'AI營運總監編排整個系統。不是聊天機器人 — 是自主營運層。',
+    orchestration_title: 'AI大腦：智能調度中心',
+    orchestration_subtitle: 'AI營運層編排整個系統。不是聊天機器人 — 是自主智能營運中樞。',
     orchestration_features: [
       '為複雜多步驟任務生成並行代理',
       '根據信心水平和任務類型路由工作',
@@ -316,6 +330,13 @@ const t = {
     cost_you_save: '你節省了',
     cost_per_year: '/年',
     cost_per_month: '/月',
+    cost_your_stack: '你目前的SaaS工具棧',
+    cost_current_label: '目前SaaS工具棧',
+    cost_savings_label: '你節省了',
+    cost_savings_per_year: '/年',
+    cost_savings_reduction: '工具成本降低',
+    cost_total_monthly: '每月總計',
+    cost_get_started: '開始使用',
 
     // Case study
     case_title: '實戰案例：STT Mall HK',
@@ -328,6 +349,13 @@ const t = {
     case_stat_tables: '數據庫表格',
     case_quote: '「我們用一套自建系統取代了10+個SaaS訂閱。利潤提升了，數據統一了，AI處理了80%的行銷內容創建。」',
     case_author: 'Arthur — 創辦人，STT Mall HK',
+    case_timeline_title: '技術棧建設時間線',
+    case_phase: '階段',
+    case_phase_1: 'Shopify同步 + CRM基礎',
+    case_phase_2: '社交自動化 + 內容引擎',
+    case_phase_3: '忠誠度 + 推薦 + 電郵行銷',
+    case_phase_4: '全渠道客服 + 數據分析',
+    case_phase_5: '影片編輯 + 聯盟 + AI助手',
 
     // Infrastructure
     infra_title: '基礎設施',
@@ -351,15 +379,15 @@ const t = {
     pricing_subtitle: '選擇適合你業務的模式。',
     pricing_setup: '安裝部署',
     pricing_setup_desc: '我們為你的商店部署完整的STT Commerce OS。一次性設定 + 每月維護。',
-    pricing_setup_price: '起步$15,000設定',
+    pricing_setup_price: '待定',
     pricing_setup_features: ['完整系統部署', '自訂配置', '數據遷移', '30天支援', '培訓及文檔'],
     pricing_managed: '代營運服務',
     pricing_managed_desc: '我們運營你的整個電商業務。你專注產品 — 我們處理其他一切。',
-    pricing_managed_price: '起步$3,000/月 + 分成',
+    pricing_managed_price: '待定',
     pricing_managed_features: ['包含安裝部署全部內容', 'AI內容生成', '社交媒體管理', '電郵行銷', '客戶分析', '持續優化'],
     pricing_partner: '成長夥伴',
     pricing_partner_desc: '營收分成模式。我們投入技術，你投入產品。共同成長。',
-    pricing_partner_price: '底費 + 2-5% GMV',
+    pricing_partner_price: '待定',
     pricing_partner_features: ['包含代營運全部內容', '利益一致', '策略諮詢', '優先功能開發', '專屬AI營運團隊', '每季業務檢討'],
     pricing_popular: '最受歡迎',
 
@@ -370,16 +398,16 @@ const t = {
     cta_button2: '查看技術文檔',
 
     // Footer
-    footer_built: '以',
-    footer_by: '由STT Mall HK打造',
-    footer_powered: '驅動：Claude AI + Shopify Hydrogen + Supabase',
+    footer_built: '',
+    footer_by: '',
+    footer_powered: '',
   },
 }
 
 const LangContext = createContext()
 
 export function LangProvider({ children }) {
-  const [lang, setLang] = useState('en')
+  const [lang, setLang] = useState('zh')
   const tr = (key) => t[lang]?.[key] ?? t.en[key] ?? key
   return (
     <LangContext.Provider value={{ lang, setLang, t: tr }}>

@@ -13,11 +13,11 @@ const STATS = [
 ];
 
 const TIMELINE = [
-  { phase: 1, title: 'Shopify Sync + CRM Foundation', color: 'from-blue-500 to-blue-400' },
-  { phase: 2, title: 'Social Autopilot + Content Engine', color: 'from-purple-500 to-purple-400' },
-  { phase: 3, title: 'Loyalty + Recommendations + EDM', color: 'from-indigo-500 to-indigo-400' },
-  { phase: 4, title: 'Omnichannel Chat + Analytics', color: 'from-cyan-500 to-cyan-400' },
-  { phase: 5, title: 'Video Editor + Affiliate + AI Agent', color: 'from-emerald-500 to-emerald-400' },
+  { phase: 1, titleKey: 'case_phase_1', color: 'from-blue-500 to-blue-400' },
+  { phase: 2, titleKey: 'case_phase_2', color: 'from-purple-500 to-purple-400' },
+  { phase: 3, titleKey: 'case_phase_3', color: 'from-indigo-500 to-indigo-400' },
+  { phase: 4, titleKey: 'case_phase_4', color: 'from-cyan-500 to-cyan-400' },
+  { phase: 5, titleKey: 'case_phase_5', color: 'from-emerald-500 to-emerald-400' },
 ];
 
 function CountUpStat({ targetValue, displayValue, label, icon: Icon, index }) {
@@ -136,7 +136,7 @@ function CaseStudy() {
           transition={{ duration: 0.6, delay: 0.6 }}
         >
           <h3 className="text-2xl font-bold text-white text-center mb-10">
-            Tech Stack Build Timeline
+            {t('case_timeline_title')}
           </h3>
 
           <div
@@ -167,8 +167,8 @@ function CaseStudy() {
 
                   {/* Label */}
                   <div className="mt-4 bg-[#1e293b]/80 border border-white/10 rounded-xl p-4 w-full">
-                    <span className="text-xs text-indigo-400 font-semibold">Phase {item.phase}</span>
-                    <p className="text-sm text-gray-300 mt-1">{item.title}</p>
+                    <span className="text-xs text-indigo-400 font-semibold">{t('case_phase')} {item.phase}</span>
+                    <p className="text-sm text-gray-300 mt-1">{t(item.titleKey)}</p>
                   </div>
                 </motion.div>
               ))}

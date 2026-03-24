@@ -87,7 +87,7 @@ export default function Hero() {
           {/* Title */}
           <motion.h1
             variants={itemVariants}
-            className="text-5xl md:text-7xl font-black leading-tight tracking-tight"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-black leading-tight tracking-tight"
           >
             <span className="text-white block">{t('hero_title_1')}</span>
             <span className="text-indigo-400 block">{t('hero_title_2')}</span>

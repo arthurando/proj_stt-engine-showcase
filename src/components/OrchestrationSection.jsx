@@ -39,11 +39,11 @@ export default function OrchestrationSection() {
             transition={{ duration: 0.6 }}
             className="relative"
           >
-            <div className="relative w-72 h-72 mx-auto">
+            <div className="relative w-56 h-56 sm:w-72 sm:h-72 mx-auto">
               {/* Central brain */}
               <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-28 h-28 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center shadow-[0_0_60px_rgba(99,102,241,0.4)]">
-                  <Brain className="w-12 h-12 text-white" />
+                <div className="w-20 h-20 sm:w-28 sm:h-28 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center shadow-[0_0_60px_rgba(99,102,241,0.4)]">
+                  <Brain className="w-8 h-8 sm:w-12 sm:h-12 text-white" />
                 </div>
               </div>
 
