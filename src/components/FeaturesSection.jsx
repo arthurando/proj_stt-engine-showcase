@@ -191,7 +191,7 @@ export default function FeaturesSection() {
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
-                            className="text-gray-400 text-sm leading-relaxed line-clamp-1"
+                            className="text-gray-400 text-sm leading-relaxed line-clamp-2"
                           >
                             {t(`feat_${feat.key}_desc`)}
                           </motion.p>

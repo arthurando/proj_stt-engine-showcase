@@ -78,8 +78,8 @@ const LAYERS = [
     services: [
       { name: 'Database', subtitle: '170 tables', icon: Database },
       { name: 'Cloud Storage', icon: HardDrive },
-      { name: 'Redis / BullMQ', icon: Layers },
-      { name: 'Shopify API', icon: Store },
+      { name: 'Message Queue', icon: Layers },
+      { name: 'Commerce API', icon: Store },
     ],
   },
 ];
