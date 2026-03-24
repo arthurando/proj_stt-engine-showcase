@@ -10,7 +10,6 @@ const NAV_KEYS = [
   { key: 'nav_features', href: '#features' },
   { key: 'nav_savings', href: '#savings' },
   { key: 'nav_case_study', href: '#case-study' },
-  { key: 'nav_pricing', href: '#pricing' },
 ];
 
 export default function Navigation() {
