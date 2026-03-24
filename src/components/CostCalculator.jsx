@@ -6,13 +6,13 @@ import { useLang } from '../i18n';
 const DEFAULT_TOOLS = [
   { key: 'email', label: 'Email Marketing (Klaviyo)', cost: 7000 },
   { key: 'crm', label: 'CRM (HubSpot)', cost: 800 },
-  { key: 'social', label: 'Social Scheduling (Hootsuite)', cost: 350 },
+  { key: 'social', label: 'Social Scheduling (Hootsuite)', cost: 700 },
   { key: 'chat', label: 'Chat Support (Gorgias)', cost: 500 },
-  { key: 'loyalty', label: 'Loyalty Program (Smile.io)', cost: 300 },
+  { key: 'loyalty', label: 'Loyalty Program (Smile.io)', cost: 2000 },
   { key: 'sync', label: 'Data Sync (Airbyte)', cost: 500 },
   { key: 'image', label: 'Image Processing (Switchboard.ai)', cost: 60 },
-  { key: 'analytics', label: 'Analytics Tools', cost: 300 },
-  { key: 'affiliate', label: 'Affiliate App', cost: 250 },
+  { key: 'analytics', label: 'Analytics Tools', cost: 700 },
+  { key: 'affiliate', label: 'Affiliate App', cost: 800 },
   { key: 'content', label: 'Content Creation (VA/Agency)', cost: 2000 },
 ];
 

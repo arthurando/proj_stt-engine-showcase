@@ -5,13 +5,13 @@ import { useLang } from '../i18n'
 const replacements = [
   { saas: 'Klaviyo', cost: '$7,000/mo', module: 'EDM Engine' },
   { saas: 'HubSpot CRM', cost: '$500–1,500/mo', module: 'Sales Command Center' },
-  { saas: 'Hootsuite', cost: '$200–500/mo', module: 'Social Autopilot' },
+  { saas: 'Hootsuite', cost: '$700/mo', module: 'Social Autopilot' },
   { saas: 'Gorgias', cost: '$300–800/mo', module: 'Omnichannel Chat' },
-  { saas: 'Smile.io', cost: '$200–600/mo', module: 'Loyalty & Rewards' },
+  { saas: 'Smile.io', cost: '$2,000/mo', module: 'Loyalty & Rewards' },
   { saas: 'Airbyte', cost: '$500–1,000/mo', module: 'Real-Time Sync' },
   { saas: 'Switchboard.ai', cost: '$30–100/mo', module: 'Image Overlay Service' },
-  { saas: 'Various Analytics', cost: '$200–500/mo', module: 'Performance Analytics' },
-  { saas: 'Affiliate App', cost: '$200–400/mo', module: 'Affiliate & Referral' },
+  { saas: 'Various Analytics', cost: '$700/mo', module: 'Performance Analytics' },
+  { saas: 'Affiliate App', cost: '$800/mo', module: 'Affiliate & Referral' },
   { saas: 'Content Creation', cost: '$1,000–3,000/mo', module: 'AI Content Factory' },
 ]
 
