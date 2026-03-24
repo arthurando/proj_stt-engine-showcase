@@ -216,7 +216,7 @@ const t = {
     // Hero
     hero_badge: 'AI 驅動電商營運系統',
     hero_title_1: '不再需要',
-    hero_title_2: '10個SaaS工具',
+    hero_title_2: '10+個SaaS工具',
     hero_title_3: '一套引擎搞定',
     hero_subtitle: '一套完全整合的電商營運系統，取代你整個SaaS工具組合 — CRM、電郵行銷、社交自動化、客服聊天、庫存同步、內容生成、聯盟計劃 — 由AI驅動，自主託管，已在212K+客戶上實戰驗證。',
     hero_cta: '查看系統架構',
