@@ -3,7 +3,7 @@ import { ArrowRight, ArrowDown, Check } from 'lucide-react'
 import { useLang } from '../i18n'
 
 const replacements = [
-  { saas: 'Klaviyo', cost: '$500–2,000/mo', module: 'EDM Engine' },
+  { saas: 'Klaviyo', cost: '$7,000/mo', module: 'EDM Engine' },
   { saas: 'HubSpot CRM', cost: '$500–1,500/mo', module: 'Sales Command Center' },
   { saas: 'Hootsuite', cost: '$200–500/mo', module: 'Social Autopilot' },
   { saas: 'Gorgias', cost: '$300–800/mo', module: 'Omnichannel Chat' },

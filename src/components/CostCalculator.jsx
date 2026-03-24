@@ -4,7 +4,7 @@ import { DollarSign, Server, ChevronDown } from 'lucide-react';
 import { useLang } from '../i18n';
 
 const DEFAULT_TOOLS = [
-  { key: 'email', label: 'Email Marketing (Klaviyo)', cost: 1000 },
+  { key: 'email', label: 'Email Marketing (Klaviyo)', cost: 7000 },
   { key: 'crm', label: 'CRM (HubSpot)', cost: 800 },
   { key: 'social', label: 'Social Scheduling (Hootsuite)', cost: 350 },
   { key: 'chat', label: 'Chat Support (Gorgias)', cost: 500 },
